@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="28.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requisito" wrappingWidth="414.6000061035156">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="nomeLivro" layoutX="55.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Livro:" />
+      <Text fx:id="infoReservaNome" layoutX="55.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservado por: " />
+      <Text fx:id="infoDtInicial" layoutX="346.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de Início: " />
+      <Text fx:id="infoDtFinal" layoutX="346.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Limite:" />
+      <Button layoutX="377.0" layoutY="360.0" mnemonicParsing="false" onAction="#livroEntregue" text="Entregue" />
+   </children>
+</AnchorPane>

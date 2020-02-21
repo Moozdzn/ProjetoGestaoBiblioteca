@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="841.992919921875" endY="140.09286499023438" startX="-35.107093811035156" startY="140.09288024902344" />
+      <Label layoutX="71.0" layoutY="39.0" text="Adicionar Livro">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="163.0" layoutY="97.0" text="ISBN :" />
+      <TextField fx:id="isbnNr" layoutX="202.0" layoutY="93.0" promptText="Inserir ISBN" />
+      <Button layoutX="357.0" layoutY="93.0" mnemonicParsing="false" onAction="#search" text="Procurar" />
+      <Button layoutX="705.0" layoutY="514.0" mnemonicParsing="false" onAction="#confirm" text="Confirmar" />
+      <Label layoutX="110.0" layoutY="242.0" text="Nome :" />
+      <TextField fx:id="nomeTxt" layoutX="161.0" layoutY="238.0" promptText="Inserir Nome" />
+      <Label layoutX="112.0" layoutY="290.0" text="Autor :" />
+      <TextField fx:id="autorTxt" layoutX="161.0" layoutY="286.0" promptText="Inserir Autor" />
+      <Label layoutX="108.0" layoutY="338.0" text="Editora :" />
+      <TextField fx:id="editoraTxt" layoutX="161.0" layoutY="334.0" promptText="Inserir Editora" />
+      <Label layoutX="110.0" layoutY="384.0" text="Idioma:" />
+      <TextField fx:id="idiomaTxt" layoutX="161.0" layoutY="380.0" promptText="Inserir Idioma" />
+      <Label layoutX="415.0" layoutY="242.0" text="DataPublicação :" />
+      <TextField fx:id="dataTxt" layoutX="513.0" layoutY="238.0" promptText="Inserir Data" />
+      <Label layoutX="445.0" layoutY="384.0" text="Descrição :" />
+      <Label layoutX="445.0" layoutY="290.0" text="Categoria :" />
+      <ComboBox fx:id="categoriaCB" layoutX="513.0" layoutY="286.0" prefWidth="150.0" promptText="Escolha Categoria" />
+      <Label layoutX="449.0" layoutY="336.0" text="Barcode :" />
+      <TextField fx:id="barcodeTxt" layoutX="513.0" layoutY="332.0" promptText="Barcode" />
+      <ComboBox fx:id="localBibliotecaBC" layoutX="630.0" layoutY="93.0" prefWidth="150.0" promptText="Local" />
+      <Button layoutX="672.0" layoutY="332.0" mnemonicParsing="false" onAction="#generate" text="Gerar Barcode" />
+      <TextArea fx:id="descricaoTxt" layoutX="513.0" layoutY="380.0" prefHeight="110.0" prefWidth="252.0" promptText="Inserir Descrição" wrapText="true" />
+   </children>
+</AnchorPane>

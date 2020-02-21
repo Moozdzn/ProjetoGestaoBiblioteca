@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<DialogPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <header>
+      <AnchorPane prefHeight="150.0" prefWidth="773.0">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="326.0" layoutY="52.0" prefHeight="46.0" prefWidth="130.0" text="Registo" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </header>
+   <content>
+      <AnchorPane prefHeight="350.0" prefWidth="480.0">
+         <children>
+            <Button layoutX="547.0" layoutY="324.0" mnemonicParsing="false" onAction="#signup" text="Criar Conta" />
+            <CheckBox fx:id="estudanteCheck" layoutX="451.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#estudanteIsChecked" text="Estudante" />
+            <CheckBox fx:id="docenteCheck" layoutX="451.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#docenteIsChecked" text="Docente" />
+            <Label layoutX="439.0" layoutY="52.0" text="Nome próprio" />
+            <Label layoutX="101.0" layoutY="113.0" text="Password" />
+            <PasswordField fx:id="passwordR" layoutX="100.0" layoutY="131.0" />
+            <Label layoutX="439.0" layoutY="113.0" text="Idade" />
+            <Label layoutX="100.0" layoutY="57.0" text="Número da Faculdade" />
+            <TextField fx:id="numeroEstR" layoutX="100.0" layoutY="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="27.0" layoutX="447.0" layoutY="72.0" stroke="#b2b2b2" strokeType="INSIDE" width="235.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="27.0" layoutX="447.0" layoutY="133.0" stroke="#b2b2b2" strokeType="INSIDE" width="236.0" />
+            <Text fx:id="nomeProprioR" fill="#979797" layoutX="450.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduza o número da faculdade" />
+            <Text fx:id="birthR" fill="#979797" layoutX="452.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduza o número da faculdade" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="27.0" layoutX="447.0" layoutY="185.0" stroke="#b2b2b2" strokeType="INSIDE" width="236.0" />
+            <Text fx:id="cursoAF" fill="#979797" layoutX="450.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduza o número da faculdade" />
+            <Label layoutX="441.0" layoutY="164.0" text="Curso" />
+            <Button fx:id="idCheck" layoutX="319.0" layoutY="77.0" mnemonicParsing="false" onAction="#checkPPL" text="Check" />
+         </children>
+      </AnchorPane>
+   </content>
+</DialogPane>
