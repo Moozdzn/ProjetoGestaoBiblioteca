@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"database"},{"l":"pt.europeia.exemplo1"},{"l":"pt.europeia.exemplo1.controllers"},{"l":"pt.europeia.exemplo1.models"}]
