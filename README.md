@@ -11,3 +11,5 @@ This project was created for Oriented Object Programming and DataBases subjects 
 This project integrates Google Books API for easy book lookup.
 
 Regarding project evaluation, it uses his own database and not the one submitted for Data base subject final avaluation as different delivery dates allowed for an increase in complexity.
+
+<a href="https://github.com/Moozdzn/ProjetoGestaoBiblioteca/blob/master/UC_POO/DiagramaDeClasses.png"> Class Diagram</a>
